@@ -4,7 +4,7 @@ Koncept kalibracije kamer s pomočjo toolboxa [Camera Calibration Toolbox za Mat
 * Goriščna razdalja ima enoto px. Ima dve komponentni, ker piksli niso kvadratni. Pretvorba v milimetrte sledi po naslednji formmuli:<br>**Fc(mm)=(Fc(px) x Sirina_senzorja)/Sirina_slike** <br>
 * Elementi vektorja distorzije opisujejo popačenje slike. To so koeficienti modela popačenja
 ## Projektivna transformacija
-* Kot edini parameter sprejme sivinsko sliko ˇsahovnice.
+* Kot edini parameter sprejme sivinsko sliko sahovnice.
 * Sahovnico prikaze uporabniku, ta pa oznaci nekaj znacilnih tock.
 Z uporabo ustreznih funkcij Matlabu izracuna parametre projektivne transformacije
 med prikazano sliko, in idealno sliko, na kateri ni opaziti projektivnega popacenja.
